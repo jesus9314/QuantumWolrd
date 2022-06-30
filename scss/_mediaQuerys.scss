@@ -1,9 +1,31 @@
 // Escritorio
-@media (min-width:992px ){
+@media(min-width:767px){
     .carousel{
         .carousel-item{
             img{
-                height: 30rem;
+                height: 45vh;
+            }
+        }
+    }
+    .card{
+        max-width: 520px;
+        margin: 0 auto;
+    }
+}
+@media (min-width:992px ){
+    .headerContainer{
+        height: 2vh;
+    }
+    .mainWrapp{
+        .main{
+            margin-top: auto;
+        }
+    }
+    .carousel{
+        width: 100%;
+        .carousel-item{
+            img{
+                height: 98vh;
             }
         }
     }
