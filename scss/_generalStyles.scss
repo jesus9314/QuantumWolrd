@@ -7,10 +7,14 @@
 body{
     font-family: $outfit;
 }
+/*Contenedor Principal*/
 .mainWrapp{
-    width: 100%;
-    height: 100%;
+
+    .main{
+        margin-top: 4.5rem;
+    }
 }
+/*Contenedor Cabecera*/
 .headerContainer{
     font-family: $spartan;
     .nav-item{
@@ -22,3 +26,79 @@ body{
         }
     }
 }
+/*Carousel Bootstrap*/
+.carousel{
+    width: 100%;
+    .carousel-item{
+        img{
+            height: 20rem;
+        }
+    }
+}
+/*Seccion ventajas*/
+.fourCards{
+    font-family: $poppins;
+    margin-top: 2rem;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    h2{
+        font-size: 30px;
+        margin: 2rem 0;
+    }
+    .content{
+        display: grid;
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas:
+        "tutoriales"
+        "calidad"
+        "delivery"
+        "improve";
+        gap: 2rem;
+        .card{
+            border-radius: 1rem;
+            border: none;
+            padding: 1.5rem;
+            max-height: min-content;
+            .cardTitle{
+                display: flex;
+                align-items: center;
+                i{
+                    margin-right: 1rem;
+                    font-size: 25px;
+                }
+                h3{
+                    font-weight: 700;
+                    margin: 1rem 0;
+                }
+            }
+            p{
+                line-height: 1.5;
+                color: $lightgray;
+                font-size: 18px;
+                font-weight: 300;
+            }
+            .imgCardRight{
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                padding: 1rem;
+                img{
+                    width: 30%;
+                }
+            }
+        }
+        @each $card, $style in $adventageCards {
+
+            $border:nth($style, 1 );
+            $area:nth($style, 2 );
+
+            .card#{$card}{
+                border-top: $border;
+                grid-area: $area;
+            }
+        }
+    }
+}
+@import "mediaQuerys";
+

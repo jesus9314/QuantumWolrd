@@ -6,13 +6,95 @@
 body {
   font-family: "Outfit", sans-serif; }
 
-.mainWrapp {
-  width: 100%;
-  height: 100%; }
+/*Contenedor Principal*/
+.mainWrapp .main {
+  margin-top: 4.5rem; }
 
+/*Contenedor Cabecera*/
 .headerContainer {
   font-family: "League Spartan", sans-serif; }
   .headerContainer .nav-item a {
     font-weight: 500; }
     .headerContainer .nav-item a i {
       margin-right: 0.5rem; }
+
+/*Carousel Bootstrap*/
+.carousel {
+  width: 100%; }
+  .carousel .carousel-item img {
+    height: 20rem; }
+
+/*Seccion ventajas*/
+.fourCards {
+  font-family: "Poppins", sans-serif;
+  margin-top: 2rem;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0; }
+  .fourCards h2 {
+    font-size: 30px;
+    margin: 2rem 0; }
+  .fourCards .content {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "tutoriales" "calidad" "delivery" "improve";
+    gap: 2rem; }
+    .fourCards .content .card {
+      border-radius: 1rem;
+      border: none;
+      padding: 1.5rem;
+      max-height: min-content; }
+      .fourCards .content .card .cardTitle {
+        display: flex;
+        align-items: center; }
+        .fourCards .content .card .cardTitle i {
+          margin-right: 1rem;
+          font-size: 25px; }
+        .fourCards .content .card .cardTitle h3 {
+          font-weight: 700;
+          margin: 1rem 0; }
+      .fourCards .content .card p {
+        line-height: 1.5;
+        color: #b6b6b6;
+        font-size: 18px;
+        font-weight: 300; }
+      .fourCards .content .card .imgCardRight {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 1rem; }
+        .fourCards .content .card .imgCardRight img {
+          width: 30%; }
+    .fourCards .content .cardTuto {
+      border-top: 4px solid #45d3d3;
+      grid-area: tutoriales; }
+    .fourCards .content .cardCali {
+      border-top: 4px solid #ea5353;
+      grid-area: calidad; }
+    .fourCards .content .cardDeli {
+      border-top: 4px solid #fcaf4a;
+      grid-area: delivery; }
+    .fourCards .content .cardImpro {
+      border-top: 4px solid #549ef2;
+      grid-area: improve; }
+
+@media (min-width: 992px) {
+  .carousel .carousel-item img {
+    height: 30rem; }
+  .fourCards {
+    width: 100%; }
+    .fourCards .content {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-areas: "tutoriales calidad delivery" "tutoriales improve delivery";
+      /* Map para alinear elementos en el grid*/ }
+      .fourCards .content .card h3 {
+        font-size: 25px; }
+      .fourCards .content .cardTuto {
+        align-self: center; }
+      .fourCards .content .cardCali {
+        align-self: auto; }
+      .fourCards .content .cardDeli {
+        align-self: center; }
+      .fourCards .content .cardImpro {
+        align-self: auto; } }

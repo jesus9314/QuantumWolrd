@@ -1,0 +1,34 @@
+// Escritorio
+@media (min-width:992px ){
+    .carousel{
+        .carousel-item{
+            img{
+                height: 30rem;
+            }
+        }
+    }
+    .fourCards{
+        width: 100%;
+        .content{
+    
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr);
+            grid-template-areas: 
+            "tutoriales calidad delivery"
+            "tutoriales improve delivery";
+            .card{
+                h3{
+                    font-size: 25px;
+                }
+            }
+            /* Map para alinear elementos en el grid*/
+            @each $card, $style in $adventageCards {
+                $alignSelf: nth($style,3);
+    
+                .card#{$card}{
+                    align-self: $alignSelf;
+                }
+            }
+        }
+    }
+}

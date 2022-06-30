@@ -2,9 +2,38 @@
 $veryDarkBlue1: hsl(217, 54%, 11%);
 $veryDarkBlue2: hsl(216, 50%, 16%);
 $veryDarkBlue3: hsl(215, 32%, 27%);
-$cyan: hsl(178, 100%, 50%);
+$cyan: hsl(180, 62%, 55%);
+$red: hsl(0, 78%, 62%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
 
+$lightgray: rgb(182, 182, 182);
 // Fuentes
 $outfit: 'Outfit', sans-serif;
 $spartan: "League Spartan", sans-serif;
+$poppins: 'Poppins', sans-serif;
 // Sombras
+$textShadowSm:1px 1px 10px rgba(0,0,0,0.5);
+
+$adventageCards:(
+    "Tuto":(
+        4px solid $cyan,
+        tutoriales,
+        center
+        ),
+    "Cali":(
+        4px solid $red,
+        calidad,
+        auto
+        ),
+    "Deli":(
+        4px solid $orange,
+        delivery,
+        center
+        ),
+    "Impro":(
+        4px solid $blue,
+        improve,
+        auto
+        ),
+)
