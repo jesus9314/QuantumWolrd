@@ -55,9 +55,9 @@
 	<body>
 		<div class="mainWrapp">
 			<!-- header -->
-			<header class="headerContainer">
+			<header class="headerContainer fixed-top">
 				<!-- Barra de navegación -->
-				<nav class="navbar fixed-top navbar-dark navbar-expand-lg bg-primary">
+				<nav class="navbar navbar-dark navbar-expand-lg bg-primary">
 					<div class="container-fluid">
 						<a class="navbar-brand brand" aria-label="QuantumWorld" href="/">
 							<img
@@ -67,7 +67,7 @@
 								title="Quantum World"
 								class="d-inline-block align-text-top"
 							/>
-                            <h1 class="navbar-brand">QuantumWorld</h1>		
+							<h1 class="navbar-brand">QuantumWorld</h1>
 						</a>
 						<button
 							class="navbar-toggler"
@@ -135,148 +135,128 @@
 			</header>
 			<main class="main">
 				<!-- Carousel -->
-                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button
-                            type="button"
-                            data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide-to="0"
-                            class="active"
-                            aria-current="true"
-                            aria-label="Slide 1"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide-to="1"
-                            aria-label="Slide 2"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide-to="2"
-                            aria-label="Slide 3"
-                        ></button>
-                    </div>
+				<div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="img/mejoresProductos.jpeg" class="d-block w-100 img-fluid" alt="Los mejores productos tecnológicos" />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
+                      <div class="carousel-item active">
+                        <img src="img/welcomePortada.jpg" class="d-block w-100" alt="...">
+                        <div class="container">
+                            <div class="carousel-caption text-start">
+                              <h1>Lorem ipsum dolor sit amet.</h1>
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, laboriosam.</p>
+                              <p><a class="btn btn-primary" href="#">Sign up today</a></p>
                             </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="10000">
-                            <img src="img/laptops.webp" class="d-block w-100" alt="Productos portátiles con los mejores Precios" />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/tecnlogiesPortada.jpg" class="d-block w-100" alt="...">
+                        <div class="container">
+                            <div class="carousel-caption text-start">
+                              <h1>Lorem ipsum dolor sit amet.</h1>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, incidunt!</p>
+                              <p><a class="btn btn-primary" href="#">Sign up today</a></p>
                             </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="10000">
-                            <img src="img/trabajoHogar.jpg" class="d-block w-100" alt="Productos para trabajar desde casa" />
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/cityPortada.jpg" class="d-block w-100" alt="...">
+                        <div class="container">
+                            <div class="carousel-caption text-start">
+                              <h1>Lorem ipsum dolor sit amet.</h1>
+                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, excepturi.</p>
+                              <p><a class="btn btn-primary" href="#">Sign up today</a></p>
                             </div>
-                        </div>
+                          </div>
+                      </div>
                     </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev"
-                    >
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
                     </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next"
-                    >
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
                     </button>
-                </div>
-                <div class="container">
-                    <section class="fourCards">
-                        <h2>Ventajas de Nuestra Tienda</h2>
-                        <div class="content container">
-                            <div class="card cardTuto shadow">
-                                <div class="cardTitle">
-                                    <i class="fa-solid fa-chalkboard-user"></i>
-                                    <h3>Tutoriales</h3>
+                  </div>
+                <div class="fourCountainer">
+                    <div class="container">
+                        <section class="fourCards">
+                            <h2>Ventajas de Nuestra Tienda.</h2>
+                            <div class="content container">
+                                <div class="card cardTuto shadow">
+                                    <div class="cardTitle">
+                                        <i class="fa-solid fa-chalkboard-user"></i>
+                                        <h3>Tutoriales</h3>
+                                    </div>
+                                    <p>
+                                        Contamos con una sección de tutoriales para que nuestros
+                                        clientes aprendan ellos mismos a armar sus PC's y así tomen
+                                        mejores desiciones de compra.
+                                    </p>
+                                    <figure class="imgCardRight">
+                                        <img
+                                            src="img/productExplainer.svg"
+                                            alt="Tutoriales Online"
+                                            title="Tutoriales Online"
+                                        />
+                                    </figure>
                                 </div>
-                                <p>
-                                    Contamos con una sección de tutoriales para que nuestros clientes
-                                    aprendan ellos mismos a armar sus PC's y así tomen mejores
-                                    desiciones de compra.
-                                </p>
-                                <figure class="imgCardRight">
-                                    <img
-                                        src="img/productExplainer.svg"
-                                        alt="Tutoriales Online"
-                                        title="Tutoriales Online"
-                                    />
-                                </figure>
-                            </div>
-                            <div class="card cardCali shadow">
-                                <div class="cardTitle">
-                                    <i class="fa-solid fa-desktop"></i>
-                                    <h3>Calidad</h3>
+                                <div class="card cardCali shadow">
+                                    <div class="cardTitle">
+                                        <i class="fa-solid fa-desktop"></i>
+                                        <h3>Calidad</h3>
+                                    </div>
+                                    <p>
+                                        Contamos con los productos de mejor calidad del mercado para
+                                        darles una mejor experiencia en el día a dia a nuestros
+                                        clientes.
+                                    </p>
+                                    <figure class="imgCardRight">
+                                        <img
+                                            src="img/addToCart.svg"
+                                            alt="Comprado Productos"
+                                            title="Comprando Productos"
+                                        />
+                                    </figure>
                                 </div>
-                                <p>
-                                    Contamos con los productos de mejor calidad del mercado para darles
-                                    una mejor experiencia en el día a dia a nuestros clientes.
-                                </p>
-                                <figure class="imgCardRight">
-                                    <img
-                                        src="img/addToCart.svg"
-                                        alt="Comprado Productos"
-                                        title="Comprando Productos"
-                                    />
-                                </figure>
-                            </div>
-                            <div class="card cardDeli shadow">
-                                <div class="cardTitle">
-                                    <i class="fa-solid fa-truck"></i>
-                                    <h3>Delivery</h3>
+                                <div class="card cardDeli shadow">
+                                    <div class="cardTitle">
+                                        <i class="fa-solid fa-truck"></i>
+                                        <h3>Delivery</h3>
+                                    </div>
+                                    <p>
+                                        Trabajamos con uno de los mejores servicios de courrier del
+                                        <strong>Perú</strong> para que nuestros clientes tengan sus
+                                        productos lo más pronto y seguro posible.
+                                    </p>
+                                    <figure class="imgCardRight">
+                                        <img
+                                            src="img/deliveryTruck.svg"
+                                            alt="Camión de Reparto"
+                                            title="Camión de Reparto"
+                                        />
+                                    </figure>
                                 </div>
-                                <p>
-                                    Trabajamos con uno de los mejores servicios de courrier del
-                                    <strong>Perú</strong> para que nuestros clientes tengan sus
-                                    productos lo más pronto y seguro posible.
-                                </p>
-                                <figure class="imgCardRight">
-                                    <img
-                                        src="img/deliveryTruck.svg"
-                                        alt="Camión de Reparto"
-                                        title="Camión de Reparto"
-                                    />
-                                </figure>
-                            </div>
-                            <div class="card cardImpro shadow">
-                                <div class="cardTitle">
-                                    <i class="fa-solid fa-flag-checkered"></i>
-                                    <h3>Mejora Constante</h3>
+                                <div class="card cardImpro shadow">
+                                    <div class="cardTitle">
+                                        <i class="fa-solid fa-flag-checkered"></i>
+                                        <h3>Mejora Constante</h3>
+                                    </div>
+                                    <p>
+                                        Nuestro equipo está comprometido a estar actualizados en la
+                                        mayor cantidad de temas para ofrecer un mejor servicio a
+                                        nuestros clientes y por su puesto con el mejor carisma.
+                                    </p>
+                                    <figure class="imgCardRight">
+                                        <img
+                                            src="img/teamSolutions.svg"
+                                            alt="Buscando Nuevas soluciones en equipo"
+                                            title="Buscando Nuevas soluciones en equipo"
+                                        />
+                                    </figure>
                                 </div>
-                                <p>
-                                    Nuestro equipo está comprometido a estar actualizados en la mayor
-                                    cantidad de temas para ofrecer un mejor servicio a nuestros clientes
-                                    y por su puesto con el mejor carisma.
-                                </p>
-                                <figure class="imgCardRight">
-                                    <img
-                                        src="img/teamSolutions.svg"
-                                        alt="Buscando Nuevas soluciones en equipo"
-                                        title="Buscando Nuevas soluciones en equipo"
-                                    />
-                                </figure>
                             </div>
-                        </div>
-                    </section>
+                        </section>
+                    </div>
                 </div>
 			</main>
 		</div>

@@ -6,14 +6,9 @@
 }
 body{
     font-family: $outfit;
+    padding-top: 4rem;
 }
 /*Contenedor Principal*/
-.mainWrapp{
-    width: 100%;
-    .main{
-        margin-top: 4.5rem;
-    }
-}
 .brand{
     display: flex;
     align-items: center;
@@ -22,29 +17,31 @@ body{
 /*Contenedor Cabecera*/
 .headerContainer{
     font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    height: 100%;
-    .nav-item{
-        a{
-            font-weight: 300;
-            i{
-                margin-right: 0.5rem;
+    height: 4rem;
+    .navbar{
+        height: 100%;
+        .nav-item{
+            a{
+                font-weight: 300;
+                i{
+                    margin-right: 0.5rem;
+                }
             }
         }
     }
 }
 /*Carousel Bootstrap*/
 .carousel{
-    width: 100%;
     .carousel-item{
         img{
             height: 15rem;
         }
-        .carousel-caption{
-            text-shadow: 2px 2px 2px #000000;
-        }
     }
 }
 /*Seccion ventajas*/
+.fourCountainer{
+    background-color: rgb(245, 245, 245);
+}
 .fourCards{
     font-family: $poppins;
     margin-top: 2rem;
