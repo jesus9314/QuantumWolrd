@@ -12,11 +12,15 @@ body {
   .mainWrapp .main {
     margin-top: 4.5rem; }
 
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px; }
+
 /*Contenedor Cabecera*/
 .headerContainer {
-  font-family: "League Spartan", sans-serif;
-  height: 100%;
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; }
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 100%; }
   .headerContainer .nav-item a {
     font-weight: 300; }
     .headerContainer .nav-item a i {

@@ -14,11 +14,15 @@ body{
         margin-top: 4.5rem;
     }
 }
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 /*Contenedor Cabecera*/
 .headerContainer{
-    font-family: $spartan;
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     height: 100%;
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     .nav-item{
         a{
             font-weight: 300;
