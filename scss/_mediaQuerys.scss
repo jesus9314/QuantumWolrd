@@ -59,4 +59,30 @@
             }
         }
     }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr;
+        grid-template-rows: 1fr 0.3fr;
+        grid-template-areas: 
+        "nav subscribe social"
+        "derechos derechos derechos";
+        &__sec{
+            border-bottom: none;
+            height: 200px;
+            padding-right: 1rem;
+        }
+        @each $sec, $style in $footer {
+            $area: nth($style, 1 );
+            $border:nth($style, 2 );
+            .footer__#{$sec}{
+                border-right:$border;
+                grid-area: $area;
+            }
+        }
+        &__derechos{
+            p{
+                display: inline;
+            }
+        }
+    }
 }
