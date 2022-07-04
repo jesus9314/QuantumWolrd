@@ -120,10 +120,8 @@ body {
       .footer__sec ul li a {
         text-decoration: none;
         color: white; }
-    .footer__sec .footerNav__list {
-      text-align: center; }
-      .footer__sec .footerNav__list li {
-        margin: 10px 0; }
+  .footer__nav {
+    text-align: center; }
   .footer__subscribe {
     padding: 1rem 0;
     text-align: center; }

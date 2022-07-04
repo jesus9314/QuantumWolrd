@@ -147,14 +147,9 @@ body{
                 }
             }
         }
-        .footerNav{
-            &__list{
-                text-align: center;
-                li{
-                    margin: 10px 0;
-                }
-            }
-        }
+    }
+    &__nav{
+        text-align: center;
     }
     &__subscribe{
         padding: 1rem 0;
