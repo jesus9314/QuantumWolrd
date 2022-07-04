@@ -34,14 +34,16 @@
             padding: 1rem;
             margin: 1rem 0;
             background-color: rgba(212, 212, 212, 0.5);
-            &__header{
-            }
             &__img{
                 width: 250px;
                 height: 200px;
                 img{
                     width: 100%;
                     height: 100%;
+                    transition: .5s;
+                    &:hover{
+                        transform: scale(1.05);
+                    }
                 }
             }
             &__content{
