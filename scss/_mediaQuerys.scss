@@ -17,6 +17,11 @@
         max-width: 420px;
         margin: 0 auto;
     }
+    .comments{
+        &__container{
+            flex-direction: row;
+        }
+    }
 }
 @media (min-width:992px ){
     .banner{
@@ -56,6 +61,20 @@
                 .card#{$card}{
                     align-self: $alignSelf;
                 }
+            }
+        }
+    }
+    .comments{
+        &__container{
+            justify-content: space-evenly;
+        }
+        .comment{
+            flex-direction: row;
+            margin: 0;
+            max-width: 500px;
+            &__content{
+                text-align: left;
+                margin-left: 2rem;
             }
         }
     }

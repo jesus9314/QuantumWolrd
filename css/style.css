@@ -22,6 +22,10 @@ body {
     .headerContainer .navbar .nav-item a i {
       margin-right: 0.5rem; }
 
+.titleSection {
+  font-size: 30px;
+  margin: 2rem 0; }
+
 /* Banner*/
 .banner {
   height: 28rem;
@@ -56,9 +60,6 @@ body {
   width: 90%;
   margin: 0 auto;
   padding: 2rem 0; }
-  .cards h2 {
-    font-size: 30px;
-    margin: 2rem 0; }
   .cards__content {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
@@ -103,6 +104,41 @@ body {
       border-top: 4px solid #549ef2;
       grid-area: improve; }
 
+.comments {
+  padding: 2rem 0; }
+  .comments__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem auto; }
+  .comments .comment {
+    padding: 1rem;
+    background-color: #3cff35;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px; }
+    .comments .comment__content {
+      width: 100%; }
+      .comments .comment__content h3 {
+        font-weight: 500; }
+      .comments .comment__content p {
+        font-weight: 300;
+        letter-spacing: 1.5px;
+        font-style: oblique; }
+    .comments .comment__img {
+      width: 50%; }
+      .comments .comment__img img {
+        width: 100px;
+        height: 100px;
+        border: 4px solid yellow;
+        border-radius: 50%; }
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -125,7 +161,7 @@ body {
   .footer__subscribe {
     padding: 1rem 0;
     text-align: center; }
-    .footer__subscribe h5 {
+    .footer__subscribe h2 {
       font-size: 15px;
       line-height: 1.5;
       margin-bottom: 1rem; }
@@ -142,15 +178,15 @@ body {
       box-shadow: none; }
   .footer__social {
     padding: 1rem 0;
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center; }
     .footer__social ul li {
       display: inline;
       margin: 5px;
+      padding: 10px;
+      text-align: center;
       border: 1px solid white;
-      padding: 8px;
       border-radius: 50%; }
       .footer__social ul li a i {
         width: 20px;
@@ -173,7 +209,9 @@ body {
     padding: 0 3rem; }
   .card {
     max-width: 420px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .comments__container {
+    flex-direction: row; } }
 
 @media (min-width: 992px) {
   .banner {
@@ -202,6 +240,15 @@ body {
         align-self: center; }
       .cards__content .cardImpro {
         align-self: auto; }
+  .comments__container {
+    justify-content: space-evenly; }
+  .comments .comment {
+    flex-direction: row;
+    margin: 0;
+    max-width: 500px; }
+    .comments .comment__content {
+      text-align: left;
+      margin-left: 2rem; }
   .footer {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
