@@ -1,0 +1,17 @@
+@media (min-width:992px){
+    .products{
+        margin: 0 auto;
+        &__header{
+            margin: 1rem 0;
+        }
+        &__container{
+            width: 90%;
+            .products__content{
+                flex-direction: row;
+                .product{
+                    margin: 1rem 0.5rem;
+                }
+            }
+        }
+    }
+}
