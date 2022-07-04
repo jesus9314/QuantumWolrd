@@ -11,6 +11,8 @@ $spartan: "League Spartan", sans-serif;
 $poppins: 'Poppins', sans-serif;
 // Sombras
 $textShadowSm:1px 1px 10px rgba(0,0,0,0.5);
+$shadowInset: inset 5px 5px 15px 0px rgba(128, 128, 128, 0.507);
+$borderFooter: 1px solid rgb(75, 75, 75);
 
 $adventageCards:(
     "Tuto":(
@@ -37,11 +39,11 @@ $adventageCards:(
 $footer: (
     "nav":(
         nav,
-        1px solid rgb(75, 75, 75)
+        $borderFooter
     ),
     "subscribe":(
         subscribe,
-        1px solid rgb(75, 75, 75)
+        $borderFooter
     ),
     "social":(
         social,
