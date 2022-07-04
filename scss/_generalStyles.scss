@@ -6,7 +6,7 @@
 }
 body{
     font-family: $outfit;
-    padding-top: 4rem;
+    padding-top: 5.2rem;
 }
 /*Contenedor Principal*/
 .brand{
@@ -19,7 +19,6 @@ body{
     font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     height: 4rem;
     .navbar{
-        height: 100%;
         .nav-item{
             a{
                 font-weight: 300;
@@ -30,19 +29,40 @@ body{
         }
     }
 }
-/*Carousel Bootstrap*/
-.carousel{
-    .carousel-item{
+/* Banner*/
+.banner{
+    height: 28rem;
+    background-color: rgb(180, 180, 180);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    &__content{
+        color: white;
+        max-width: 767px;
+        h2{
+            letter-spacing: 2px;
+        }
+        p{
+            font-weight: 300;
+            line-height: 1.5;
+        }
+    }
+    &__img{
+        width: 150px;
         img{
-            height: 15rem;
+            width: 100%;
         }
     }
 }
-/*Seccion ventajas*/
+/* Seccion ventajas*/
 .fourCountainer{
     background-color: rgb(245, 245, 245);
 }
-.fourCards{
+.cards{
     font-family: $poppins;
     margin-top: 2rem;
     width: 90%;
@@ -52,7 +72,7 @@ body{
         font-size: 30px;
         margin: 2rem 0;
     }
-    .content{
+    &__content{
         display: grid;
         grid-template-rows: repeat(4,1fr);
         grid-template-areas:
@@ -66,7 +86,7 @@ body{
             border: none;
             padding: 1.5rem;
             max-height: min-content;
-            .cardTitle{
+            &__title{
                 display: flex;
                 align-items: center;
                 i{
@@ -84,13 +104,13 @@ body{
                 font-size: 18px;
                 font-weight: 300;
             }
-            .imgCardRight{
+            &__img{
                 width: 100%;
                 display: flex;
                 justify-content: flex-end;
                 padding: 1rem;
                 img{
-                    width: 30%;
+                    width: 50%;
                 }
             }
         }
