@@ -1,0 +1,26 @@
+@media(min-width:992px){
+    .intro{
+        &__container{
+            flex-direction: row;
+            align-items: center;
+        }
+        &__content{
+            width: 70%;
+        }
+        &__img{
+            width: 30%;
+        }
+    }
+    .proveedores{
+        &__content{
+            flex-flow: row wrap;
+            justify-content: space-around;
+            .proveedor{
+                width: 30%;
+                &__img{
+                    width: 150px;
+                }
+            }
+        }
+    }
+}
