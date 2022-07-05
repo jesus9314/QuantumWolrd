@@ -9,15 +9,16 @@
         background-color: white;
         padding: 2rem;
         width: 350px;
-        border-radius: 1rem;
+        border-radius: 2px;
     }
     &__header{
         display: flex;
         align-items: center;
+        color: $lightGreen;
         h2{
             font-size: 30px;
             margin-right: 10px;
-            letter-spacing: 1.5px;
+            letter-spacing: 2px;
         }
         i{
             font-size: 25px;
@@ -30,9 +31,10 @@
         .product{ 
             display: flex;
             flex-direction: column;
-            border-radius: 10px;
+            border-radius: 2px;
             padding: 1rem;
             margin: 1rem 0;
+            border: 1px solid rgb(201, 201, 201);
             background-color: rgba(212, 212, 212, 0.5);
             &__img{
                 width: 250px;
@@ -41,6 +43,8 @@
                     width: 100%;
                     height: 100%;
                     transition: .5s;
+                    border-radius: 2px;
+                    border: 1px solid rgb(201, 201, 201);
                     &:hover{
                         transform: scale(1.05);
                     }
@@ -50,6 +54,7 @@
                 padding: 1rem 0;
             }
             &__title{
+                text-align: center;
                 font-size: 15px;
                 letter-spacing: 1.5px;
                 color: rgb(83, 83, 83);

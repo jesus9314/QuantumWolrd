@@ -121,6 +121,11 @@
             height: 200px;
             padding-right: 1rem;
         }
+        &__nav{
+            nav{
+                text-align: left;
+            }
+        }
         @each $sec, $style in $footer {
             $area: nth($style, 1 );
             $border:nth($style, 2 );

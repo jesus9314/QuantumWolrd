@@ -34,6 +34,8 @@ body{
 .titleSection{
     font-size: 30px;
     margin: 2rem 0;
+    color: $lightGreen;
+    letter-spacing: 2px;
     transition: .5s;
     &:hover{
         transform: translate(2px, 2px);
@@ -55,6 +57,7 @@ body{
         max-width: 767px;
         h2{
             letter-spacing: 2px;
+            color: $lightGreen;
         }
         p{
             font-weight: 300;
@@ -148,7 +151,7 @@ body{
     }
     .comment{
         padding: 1rem;
-        background-color: rgb(60, 255, 53);
+        background-color: $lightGreen;
         border-radius: 10px;
         color: white;
         display: flex;
@@ -217,7 +220,11 @@ body{
         }
     }
     &__nav{
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        nav{
+            text-align: center;
+        }
     }
     &__subscribe{
         padding: 1rem 0;
@@ -243,14 +250,15 @@ body{
         }
     }
     &__social{
-        padding: 1rem 0;
+        // padding: 1rem 0;
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-top: 2rem;
         ul{
             li{
                 display: inline;
-                margin: 5px;
+                margin: 0 5px;
                 padding: 10px;
                 text-align: center;
                 border: 1px solid white;
