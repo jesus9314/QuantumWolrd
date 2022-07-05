@@ -1,0 +1,28 @@
+@media(min-width:767px){
+    .acercaDe{
+        &__container{
+            flex-direction: row;
+        }
+    }
+    .story{
+        &__card{
+            flex-direction: row;
+        }
+        &__content{
+            width: 60%;
+        }
+        &__img{
+            width: 40%;
+        }
+    }
+}
+@media(min-width:992px){
+    .story{
+        &__content{
+            width: 50%;
+        }
+        &__img{
+            width: 50%;
+        }
+    }
+}

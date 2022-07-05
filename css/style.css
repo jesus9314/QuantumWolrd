@@ -446,6 +446,188 @@ body {
       .proveedores__content .proveedor__img {
         width: 150px; } }
 
+.acercaDe {
+  background-image: url(../../img/ciudadTecnologica.jpg);
+  background-size: cover;
+  padding: 3rem 0; }
+  .acercaDe__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2rem; }
+  .acercaDe__card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 340px; }
+    .acercaDe__card h2 {
+      font-weight: 400;
+      letter-spacing: 2px; }
+    .acercaDe__card p {
+      font-weight: 300;
+      line-height: 1.5; }
+  .acercaDe__barra {
+    border-bottom: 1px solid;
+    border-color: #eb0017;
+    width: 50%;
+    margin-top: 24px;
+    margin-bottom: 24px; }
+
+.whyUs__container {
+  margin: 3rem auto; }
+
+.whyUs__content {
+  margin: 2rem;
+  text-align: center; }
+  .whyUs__content h2 {
+    color: #76b900;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .whyUs__content p {
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1.5px; }
+
+.story {
+  background-color: rgba(230, 230, 230, 0.205);
+  padding: 2rem 0; }
+  .story__card {
+    background-color: #76b900;
+    border-radius: 10px;
+    padding: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; }
+  .story__content {
+    width: 100%; }
+    .story__content h2 {
+      font-weight: 700;
+      letter-spacing: 2px; }
+    .story__content p {
+      font-weight: 300;
+      line-height: 1.5;
+      letter-spacing: 1.5px; }
+  .story__img {
+    width: 100%; }
+    .story__img img {
+      width: 100%; }
+
+.team {
+  padding: 3rem 0; }
+
+.card-img-top {
+  height: 250px; }
+
+@media (min-width: 767px) {
+  .acercaDe__container {
+    flex-direction: row; }
+  .story__card {
+    flex-direction: row; }
+  .story__content {
+    width: 60%; }
+  .story__img {
+    width: 40%; } }
+
+@media (min-width: 992px) {
+  .story__content {
+    width: 50%; }
+  .story__img {
+    width: 50%; } }
+
+.acercaDe {
+  background-image: url(../../img/ciudadTecnologica.jpg);
+  background-size: cover;
+  padding: 3rem 0; }
+  .acercaDe__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2rem; }
+  .acercaDe__card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 340px; }
+    .acercaDe__card h2 {
+      font-weight: 400;
+      letter-spacing: 2px; }
+    .acercaDe__card p {
+      font-weight: 300;
+      line-height: 1.5; }
+  .acercaDe__barra {
+    border-bottom: 1px solid;
+    border-color: #eb0017;
+    width: 50%;
+    margin-top: 24px;
+    margin-bottom: 24px; }
+
+.whyUs__container {
+  margin: 3rem auto; }
+
+.whyUs__content {
+  margin: 2rem;
+  text-align: center; }
+  .whyUs__content h2 {
+    color: #76b900;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .whyUs__content p {
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1.5px; }
+
+.story {
+  background-color: rgba(230, 230, 230, 0.205);
+  padding: 2rem 0; }
+  .story__card {
+    background-color: #76b900;
+    border-radius: 10px;
+    padding: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; }
+  .story__content {
+    width: 100%; }
+    .story__content h2 {
+      font-weight: 700;
+      letter-spacing: 2px; }
+    .story__content p {
+      font-weight: 300;
+      line-height: 1.5;
+      letter-spacing: 1.5px; }
+  .story__img {
+    width: 100%; }
+    .story__img img {
+      width: 100%; }
+
+.team {
+  padding: 3rem 0; }
+
+.card-img-top {
+  height: 250px; }
+
+@media (min-width: 767px) {
+  .acercaDe__container {
+    flex-direction: row; }
+  .story__card {
+    flex-direction: row; }
+  .story__content {
+    width: 60%; }
+  .story__img {
+    width: 40%; } }
+
+@media (min-width: 992px) {
+  .story__content {
+    width: 50%; }
+  .story__img {
+    width: 50%; } }
+
 .products {
   width: 100%;
   padding: 3.5rem 0;
