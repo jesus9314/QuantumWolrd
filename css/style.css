@@ -173,11 +173,13 @@ body {
     border-bottom: 1px solid #4b4b4b;
     width: 90%;
     padding: 0.7rem 0; }
-    .footer__sec ul li {
-      list-style: none; }
-      .footer__sec ul li a {
-        text-decoration: none;
-        color: white; }
+    .footer__sec ul {
+      padding-left: 0; }
+      .footer__sec ul li {
+        list-style: none; }
+        .footer__sec ul li a {
+          text-decoration: none;
+          color: white; }
   .footer__nav {
     display: flex;
     justify-content: center; }
