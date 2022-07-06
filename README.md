@@ -2,13 +2,13 @@
 
 _Quantum World - Venta de componentes de PC y tutoriales_
 
-[https://quantum-world-eta.vercel.app/]
+[QuantumWolrd](https://quantum-world-eta.vercel.app/)
 
 ## Wireframe 🚀
 
 _Los WireFrame están en el repositorio, adicional aquí hay un enlace a una carpeta drive._
 
-[https://drive.google.com/drive/folders/160RfhxT9ifRdm2Pu8bOH4hOBZ3QvAaG1?usp=sharing]
+[Drive WireFrame](https://drive.google.com/drive/folders/160RfhxT9ifRdm2Pu8bOH4hOBZ3QvAaG1?usp=sharing)
 
 
 ## Pre-requisitos 📋
@@ -21,20 +21,19 @@ Descargar node de [https://nodejs.org/es/download/]
 
 ## Criterios utilizados ⚙️
 
-* [Flexbox]
-* [Grid]
-* [Bootstrap]
-* [Responsive]
-* [SEO]
-* [Github]
-* [SASS]
+* Flexbox
+* Grid
+* Bootstrap
+* Responsive
+* SEO
+* Github
+* SASS
 
-## Notas adicionales
-
-```
-He empleado componentes de bootstrap modificados en el navbar y en [Nosotros - Conoce nuestro equipo] card-gropu, en el resto he utilizado flexbox principalmente, en sección [Inicio] he realizado una sección de [fourCards] diseñada con CSS GRID,
-también se ha hecho uso de transformaciones, animaciones utilizando la librería [Animate.style] y media query's; en la parte de [SASS], he empleados conceptos como [@extend], [@import], [@mixin], variables, bucles, maps.
-```
+* **He empleado componentes de Bootstrap modificados en el Navbar y en la sección de Conoce nuestro equipo un card-group**
+* **En el resto se ha utilizado principalmente CSS flexbox**
+* **En la sección Inicio he hecho una sección fourCards diseñada con CSS GRID**
+* **Por parte de CSS, se ha hecho uso de transformaciones, animaciones utilizando la librería Animate.style y media query's en todas las páginas**
+* **En la parte de SASS, he empleado conceptos como extend, import, mixin, variables, bucles, maps**
 
 ## Construido con 🛠️
 
