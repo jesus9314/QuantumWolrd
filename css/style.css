@@ -9,6 +9,8 @@ body {
   padding-top: 5.2rem;
   padding-bottom: 540px;
   position: relative; }
+  body ul {
+    padding-left: 0; }
 
 /*Contenedor Principal*/
 .brand {
@@ -36,7 +38,7 @@ body {
 
 /*Mixin para tarjetas*/
 /*Definimos clase párrafo para que herede sus estilos por medio de extends*/
-.parrafo, .banner__content p, .cards__content .card p, .comments .comment__content p, .intro__content p, .proveedores__title p, .acercaDe__card p, .whyUs__content p, .story__content p {
+.parrafo, .banner__content p, .cards__content .card p, .comments .comment__content p, .intro__content p, .proveedores__title p, .acercaDe__card p, .whyUs__content p, .story__content p, .contact__info p {
   font-weight: 300;
   line-height: 1.5;
   letter-spacing: 1.5px; }
@@ -209,11 +211,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 2rem; }
+    padding-top: 1rem; }
     .footer__social ul li {
-      display: inline;
+      display: inline-block;
       margin: 0 5px;
-      padding: 10px;
+      padding: 5px;
       text-align: center;
       border: 1px solid white;
       border-radius: 50%; }
@@ -543,6 +545,63 @@ body {
   .story__img {
     width: 50%; } }
 
+.contact {
+  background-color: rgba(230, 230, 230, 0.205);
+  margin: 3rem 0;
+  font-family: "Outfit", sans-serif;
+  text-align: center; }
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; }
+  .contact__info {
+    width: 100%;
+    padding: 2rem 0; }
+    .contact__info h2 {
+      letter-spacing: 2px;
+      margin: 1rem 0; }
+    .contact__info ul {
+      margin: 1rem 0;
+      text-align: center; }
+      .contact__info ul li {
+        list-style: none;
+        display: inline-block;
+        font-size: 25px;
+        border: 1px solid black;
+        width: 40px;
+        border-radius: 5px;
+        height: 40px;
+        padding: 2px;
+        margin-right: 1rem; }
+        .contact__info ul li a {
+          color: black; }
+    .contact__info iframe {
+      width: 100%;
+      border: 1px solid #d4d4d4; }
+  .contact__form {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: left; }
+    .contact__form .form-control::placeholder {
+      font-weight: 300; }
+
+@media (min-width: 767px) {
+  .contac__form {
+    padding: 0 2rem; } }
+
+@media (min-width: 992px) {
+  .contact {
+    text-align: left; }
+    .contact__container {
+      flex-direction: row;
+      gap: 2rem; }
+    .contact__form {
+      padding: 0 2.5rem; } }
+
 .acercaDe {
   background-image: url(../../img/ciudadTecnologica.jpg);
   background-size: cover;
@@ -694,6 +753,63 @@ body {
         flex-direction: row; }
         .products__container .products__content .product {
           margin: 1rem 0.5rem; } }
+
+.contact {
+  background-color: rgba(230, 230, 230, 0.205);
+  margin: 3rem 0;
+  font-family: "Outfit", sans-serif;
+  text-align: center; }
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; }
+  .contact__info {
+    width: 100%;
+    padding: 2rem 0; }
+    .contact__info h2 {
+      letter-spacing: 2px;
+      margin: 1rem 0; }
+    .contact__info ul {
+      margin: 1rem 0;
+      text-align: center; }
+      .contact__info ul li {
+        list-style: none;
+        display: inline-block;
+        font-size: 25px;
+        border: 1px solid black;
+        width: 40px;
+        border-radius: 5px;
+        height: 40px;
+        padding: 2px;
+        margin-right: 1rem; }
+        .contact__info ul li a {
+          color: black; }
+    .contact__info iframe {
+      width: 100%;
+      border: 1px solid #d4d4d4; }
+  .contact__form {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: left; }
+    .contact__form .form-control::placeholder {
+      font-weight: 300; }
+
+@media (min-width: 767px) {
+  .contac__form {
+    padding: 0 2rem; } }
+
+@media (min-width: 992px) {
+  .contact {
+    text-align: left; }
+    .contact__container {
+      flex-direction: row;
+      gap: 2rem; }
+    .contact__form {
+      padding: 0 2.5rem; } }
 
 .intro {
   width: 100%;

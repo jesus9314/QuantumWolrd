@@ -1,0 +1,59 @@
+.contact{
+    background-color: $bg-lightgray;
+    margin: 3rem 0;
+    font-family: $outfit;
+    text-align: center;
+    &__container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    &__info{
+        width: 100%;
+        padding: 2rem 0;
+        h2{
+            letter-spacing: 2px;
+            margin: 1rem 0;
+        }
+        ul{
+            margin: 1rem 0;
+            text-align: center;
+            li{
+                list-style: none;
+                display: inline-block;
+                font-size: 25px;
+                border: 1px solid black;
+                width: 40px;
+                border-radius: 5px;
+                height: 40px;
+                padding: 2px;
+                margin-right: 1rem;
+                a{
+                    color: black;
+                }
+            }
+        }
+        p{
+            @extend.parrafo;
+        }
+        iframe{
+            width: 100%;
+            border: 1px solid rgb(212, 212, 212);
+        }
+    }
+    &__form{
+        width: 100%;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid rgb(221, 221, 221);
+        padding: 1rem;
+        margin: 1rem 0;
+        text-align: left;
+        .form-control{
+            &::placeholder{
+                font-weight: 300;
+            }
+        }
+    }
+}
+@import "mediaQuery/contactanosMq";

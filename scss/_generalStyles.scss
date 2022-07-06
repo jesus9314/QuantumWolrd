@@ -9,6 +9,9 @@ body{
     padding-top: 5.2rem;
     padding-bottom: 540px;
     position: relative;
+    ul{
+        padding-left: 0;
+    }
 }
 /*Contenedor Principal*/
 .brand{
@@ -260,12 +263,12 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 2rem;
+        padding-top: 1rem;
         ul{
             li{
-                display: inline;
+                display: inline-block;
                 margin: 0 5px;
-                padding: 10px;
+                padding: 5px;
                 text-align: center;
                 border: 1px solid white;
                 border-radius: 50%;
