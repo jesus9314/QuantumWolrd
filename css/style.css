@@ -477,7 +477,7 @@ body {
     line-height: 1.5; }
 
 .acercaDe {
-  background-image: url(../QuantumWorld/img/ciudadTecnologica.jpg);
+  background-image: url(/img/ciudadTecnologica.jpg);
   background-size: cover;
   padding: 3rem 0; }
   .acercaDe__container {
@@ -642,7 +642,7 @@ body {
     line-height: 1.5; }
 
 .acercaDe {
-  background-image: url(../QuantumWorld/img/ciudadTecnologica.jpg);
+  background-image: url(/img/ciudadTecnologica.jpg);
   background-size: cover;
   padding: 3rem 0; }
   .acercaDe__container {
