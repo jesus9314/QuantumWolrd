@@ -29,6 +29,8 @@ Descargar node de [https://nodejs.org/es/download/]
 * Github
 * SASS
 
+### Puntos adicionales
+
 * **He empleado componentes de Bootstrap modificados en el Navbar y en la sección de Conoce nuestro equipo un card-group**
 * **En el resto se ha utilizado principalmente CSS flexbox**
 * **En la sección Inicio he hecho una sección fourCards diseñada con CSS GRID**
