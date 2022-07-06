@@ -1,6 +1,6 @@
-# Título del Proyecto
+# Quantum World
 
-_Quantum World - Venta de componentes de PC y tutoriales_
+_Venta de componentes de PC y tutoriales_
 
 [QuantumWolrd](https://quantum-world-eta.vercel.app/)
 
