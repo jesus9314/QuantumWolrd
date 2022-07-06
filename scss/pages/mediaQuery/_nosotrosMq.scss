@@ -15,6 +15,9 @@
             width: 40%;
         }
     }
+    .card-img-top{
+        height: 150px;
+    }
 }
 @media(min-width:992px){
     .story{
@@ -24,5 +27,8 @@
         &__img{
             width: 50%;
         }
+    }
+    .card-img-top{
+        height: 250px;
     }
 }

@@ -1,3 +1,23 @@
+.card-body{
+    margin: 0 1rem;
+    font-family: $outfit;
+    h2{
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        text-align: center;
+        strong{
+            color: gray;
+            font-weight: 400;
+        }
+    }
+    ul{
+        li{
+            list-style: square inside;
+            font-weight: 300;
+            line-height: 1.5;
+        }
+    }
+}
 .acercaDe{
     background-image: url(../../img/ciudadTecnologica.jpg);
     background-size: cover;
@@ -79,7 +99,7 @@
     padding: 3rem 0;
 }
 .card-img-top{
-    height: 250px;
+    height: 400px;
 }
 
 // Media Query
