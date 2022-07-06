@@ -9,8 +9,7 @@
         gap: 2rem;
     }
     &__card{
-        background-color: white;
-        border-radius: 5px;
+        @include cardGeneral(none, 5px);
         padding: 2rem;
         margin: 0 auto;
         max-width: 340px;
@@ -19,8 +18,7 @@
             letter-spacing: 2px;
         }
         p{
-            font-weight: 300;
-            line-height: 1.5;
+            @extend.parrafo;
         }
     }
     &__barra{
@@ -44,9 +42,7 @@
             text-transform: uppercase;
         }
         p{
-            font-weight: 300;
-            line-height: 1.5;
-            letter-spacing: 1.5px;
+            @extend.parrafo;
         }
     }
 }
@@ -54,8 +50,7 @@
     background-color: $bg-lightgray;
     padding: 2rem 0;
     &__card{
-        background-color: $lightGreen;
-        border-radius: 10px;
+        @include cardGeneral(none, 10px , $lightGreen);
         padding: 2rem;
         color: white;
         display: flex;
@@ -70,9 +65,7 @@
             letter-spacing: 2px;
         }
         p{
-            font-weight: 300;
-            line-height: 1.5;
-            letter-spacing: 1.5px;
+            @extend.parrafo
         }
     }
     &__img{
