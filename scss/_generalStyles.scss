@@ -1,4 +1,4 @@
-// Reset de estilos
+/* Reset de estilos */
 *{
     margin: 0;
     padding: 0;
@@ -44,20 +44,20 @@ body{
         transform: translate(2px, 2px);
     }
 }
-/*Mixin para tarjetas*/
+/* Mixin para tarjetas */
 @mixin cardGeneral ($border, $radius, $bgColor:white){
     border-radius: $radius;
     border: $border;
     padding: 1.5rem;
     background-color: $bgColor;
 }
-/*Definimos clase párrafo para que herede sus estilos por medio de extends*/
+/* Definimos clase párrafo para que herede sus estilos por medio de extends */
 .parrafo{
     font-weight: 300;
     line-height: 1.5;
     letter-spacing: 1.5px;
 }
-/* Banner*/
+/* Banner */
 .banner{
     height: 28rem;
     background-color: rgb(180, 180, 180);
@@ -86,7 +86,7 @@ body{
         }
     }
 }
-/* Seccion ventajas*/
+/* Seccion ventajas */
 .fourCountainer{
     background-color: rgb(245, 245, 245);
 }
@@ -150,7 +150,7 @@ body{
         }
     }
 }
-// comments
+/* comments */
 .comments{
     padding: 2rem 0;
     &__container{
@@ -199,7 +199,7 @@ body{
     }
 }
 
-// footer
+/* footer */
 .footer_container{
     position: absolute;
     bottom: 0;
@@ -259,7 +259,6 @@ body{
         }
     }
     &__social{
-        // padding: 1rem 0;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -290,10 +289,4 @@ body{
         }
     }
 }
-// Media Querys
-@import "mediaQuerys";
-//Pages
-@import "pages/productos";
-@import "pages/proveedores";
-@import "pages/nosotros";
-@import "pages/contactanos";
+

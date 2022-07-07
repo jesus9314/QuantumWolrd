@@ -1,3 +1,4 @@
+/* Nosotros */
 @media(min-width:767px){
     .acercaDe{
         &__container{
@@ -14,6 +15,9 @@
         &__img{
             width: 40%;
         }
+    }
+    .card-img-top{
+        height: 150px;
     }
     .card-img-top{
         height: 150px;

@@ -1,3 +1,4 @@
+/* Nosotros */
 .card-body{
     margin: 0 1rem;
     font-family: $outfit;
@@ -99,8 +100,5 @@
     padding: 3rem 0;
 }
 .card-img-top{
-    height: 400px;
+    height: 200px;
 }
-
-// Media Query
-@import "mediaQuery/nosotrosMq";

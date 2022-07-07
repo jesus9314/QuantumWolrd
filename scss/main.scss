@@ -1,11 +1,15 @@
 // Variables
 @import "variables";
-
-//Estilos generales
+/*__ESTILOS GENERALES__*/
 @import "generalStyles";
-
-//Páginas
+/*__PÁGINAS__*/
 @import "pages/nosotros";
 @import "pages/productos";
 @import "pages/contactanos";
 @import "pages/proveedores";
+/*__MEDIA QUERY*/
+@import "mediaQuerys";
+@import "pages/mediaQuery/productosMq";
+@import "pages/mediaQuery/proveedoresMq";
+@import "pages/mediaQuery/nosotrosMq";
+@import "pages/mediaQuery/contactanosMq";

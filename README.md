@@ -2,7 +2,7 @@
 
 _Venta de componentes de PC y tutoriales_
 
-[QuantumWolrd](https://quantum-world-eta.vercel.app/)
+[QuantumWolrd](https://quantum-world-nu.vercel.app/)
 
 ## Wireframe 🚀
 

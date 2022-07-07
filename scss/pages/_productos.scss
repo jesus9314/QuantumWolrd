@@ -1,3 +1,4 @@
+/* Productos */
 .products{
     width: 100%;
     padding: 3.5rem 0;
@@ -13,11 +14,11 @@
     &__header{
         display: flex;
         align-items: center;
+        justify-content: flex-start;
         color: $lightGreen;
         h2{
             font-size: 30px;
-            margin-right: 10px;
-            letter-spacing: 2px;
+            margin-right: 5px;
         }
         i{
             font-size: 25px;
@@ -60,4 +61,3 @@
         }
     }
 }
-@import "mediaQuery/productosMq";
